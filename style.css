@@ -1,0 +1,77 @@
+/* global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+:focus {
+    outline-width: 0;
+}
+
+/* body */
+
+.word-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15vh;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.word-counter__input {
+    padding: 2rem;
+    width: 50rem;
+    
+    font-size: 2rem;
+}
+
+.word-counter__length {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.word-counter__length .length--text {
+    font-size: 4rem;
+}
+
+.calculateBtn {
+    border: none;
+    background: #e2e2e2;
+    padding: 3rem 3.5rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
